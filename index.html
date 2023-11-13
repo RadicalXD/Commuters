@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: blue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body 
+      style="font-family:Verdana;">
+
+<div style="background-color:skyblue;padding:15px;">
+  <h1 style="color:white">Welcome To Commuters</h1>
+  <h3 style="color:white;font-family:inherit">You Are Not Alone</h3>
+</div>
+
+<div style="overflow:auto;background-color: lightcyan">
+  <div class="menu">
+    <div class="menuitem">Home</div>
+    <div class="menuitem">Communities</div>
+    <div class="menuitem">Students</div>
+    <div class="menuitem">About</div>
+  </div>
+
+  <div class="main">
+    <h2 style="color:black">Commuters</h2>
+    <p style="color: black">We understand the struggles of being a commuter student on a college campus. That's why we created Commuters - a platform that connects fellow students like you. We want to make it easier for you to fit in and never feel left out.Whether you're new to campus or have been commuting for a while, we're here to support you. Our goal is to build a community where you can find friends, share experiences, and navigate the challenges of college life together. Join us today and become part of the Commuters family.  </p>
+    <img src="commuters.jpg" style="width:99%">
+  </div>
+
+  <div class="right">
+    <h2 style="color: white;font-family: serif">What's holding you back?</h2>
+    <p style="color: whitesmoke">Don't be afraid to go out on campus and meet people. We're here to get along with others.</p>
+    <h2 style="color: white;font-family: serif">Let's Try!</h2>
+    <p style="color:whitesmoke">It may be difficult to be in a new environment but take it as a fun challenge. Have some fun.</p>
+    <h2 style="color:white;font-family:serif">What do you want?</h2>
+    <p style="color:whitesmoke">If you want something to change then you gotta take the first step. Sure it may be hard at first but it'll be worth it in the end.</p>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> Home About Services Team Contact @2023 Web Publishing| All Rights Reserved.</div>
+
+</body>
+</html>
+
